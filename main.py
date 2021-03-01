@@ -49,7 +49,7 @@ class WindowAdd(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('Добавление кофе')
-        uic.loadUi('addEditCoffeeForm.ui', self)
+        uic.loadUi('add.ui', self)
 
 
 app = QApplication(sys.argv)
