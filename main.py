@@ -1,7 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QHeaderView
 from PyQt5 import QtCore, QtGui, QtWidgets, uic
-import csv
 import sqlite3
 
 
